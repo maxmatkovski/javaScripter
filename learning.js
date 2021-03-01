@@ -1,0 +1,44 @@
+let numLives = 9;
+undefined
+num -= 1;
+VM7357:1 Uncaught ReferenceError: num is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM7357:1
+numLives --;
+9
+numLives --;
+8
+numLives ++;
+7
+numLives ++;
+8
+numLives ++;
+9
+numLives ++;
+10
+numLives ++;
+11
+numLives ++;
+12
+const luckyNum = 26;
+undefined
+luckyNum;
+26
+luckyNum +=1;
+VM7663:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:10
+(anonymous) @ VM7663:1
+const daysInWeek = 7;
+undefined
+daysInWeek +=1;
+VM7797:1 Uncaught TypeError: Assignment to constant variable.
+    at <anonymous>:1:12
+(anonymous) @ VM7797:1
+daysInWeek
+7
+luckyNum
+26
+var runDistance +=1;
+VM8053:1 Uncaught SyntaxError: Unexpected token '+='
+// No reasont to use Var
+undefined
