@@ -81,3 +81,18 @@ undefined
 
 cleanedUpMessage
 "HELLLO AGAIN ."
+
+
+// Slice and Replace
+
+let msg = "Hello my name is Max"
+undefined
+msg.length
+20
+msg.slice(18,20)
+"ax"
+msg.slice(17,20)
+"Max"
+msg.replace("Hello", "Privet")
+"Privet my name is Max"
+
