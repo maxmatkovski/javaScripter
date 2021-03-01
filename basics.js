@@ -103,5 +103,26 @@ const word = "skateboard";
 let facialHair = word.slice(5,11).replace("o","e");
 
 
+// String Template Literals
+
+        // Ineffective way
+
+        let name = "Max"
+        undefined
+        let age = 19
+        undefined
+
+        "Hello my name is " + name + " , and I am " + age
+
+// Format is much cleaner and more effective
+
+ `Hello my name is ${name} and I'm {age}. Next year I'll be ${age+1}`
+  "Hello my name is Max and I'm {age}. Next year I'll be 20"
+
+// Have to use backtics ` ` and ${ } format
+
+
+
+
 
 
