@@ -62,4 +62,22 @@ isLoggedIn
 1
 
 
-//
+// String Methods
+
+let userInput = "    hello my name is Max .   "
+undefined
+
+userInput.trim() 
+"hello my name is Max ."
+
+userInput.toUpperCase()
+"    HELLO MY NAME IS MAX .   "
+
+let greeting = "     helllo again .     "
+undefined
+
+let cleanedUpMessage = greeting.trim().toUpperCase ()
+undefined
+
+cleanedUpMessage
+"HELLLO AGAIN ."
