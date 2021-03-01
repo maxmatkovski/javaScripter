@@ -42,3 +42,24 @@ var runDistance +=1;
 VM8053:1 Uncaught SyntaxError: Unexpected token '+='
 // No reasont to use Var
 undefined
+
+
+// Able to Change Variable Types in JavaScript
+
+true
+true
+let isActiveGame = true;
+undefined
+isActiveGame
+true
+isLoggedIn = false
+false
+isLoggedIn
+false
+isLoggedIn = 1;
+1
+isLoggedIn
+1
+
+
+//
