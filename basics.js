@@ -96,3 +96,12 @@ msg.slice(17,20)
 msg.replace("Hello", "Privet")
 "Privet my name is Max"
 
+// Practice Problem Transform word "skateboard" into word "beard"
+
+const word = "skateboard";
+
+let facialHair = word.slice(5,11).replace("o","e");
+
+
+
+
