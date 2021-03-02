@@ -116,3 +116,14 @@ comboAnimals.reverse()
 // Changes actual array
 
 
+let colors = ["red","blue","green", "orange"]
+undefined
+let colorsCopy = colors.slice()
+undefined
+colorsCopy.reverse()
+(4) ["orange", "green", "blue", "red"]
+colors
+(4) ["red", "blue", "green", "orange"]
+colorsCopy
+(4) ["orange", "green", "blue", "red"]
+// Slice with nothing passed in makes a copy of the Array
