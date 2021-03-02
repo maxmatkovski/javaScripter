@@ -87,3 +87,32 @@ numbers
 (5) [1, 2, 3, 4, 5]
                       // Shift removes from the beginning
 
+let cats = ['blue', 'kitty']
+undefined
+let dogs = ['rusty','wyatt']
+undefined
+cats.concat(dogs)
+(4) ["blue", "kitty", "rusty", "wyatt"]
+let comboAnimals = cats.concat(dogs)
+undefined
+comboAnimals
+(4) ["blue", "kitty", "rusty", "wyatt"]
+cats.includes('wyatt')
+false
+comboAnimals.includes('blue')
+true
+"Blue".indexOf('l')
+1
+comboAnimals.indexOf('rusty')
+2
+comboAnimals.indexOf('BLUE')
+-1
+// Returns -1 not in array
+undefined
+comboAnimals
+(4) ["blue", "kitty", "rusty", "wyatt"]
+comboAnimals.reverse()
+(4) ["wyatt", "rusty", "kitty", "blue"]
+// Changes actual array
+
+
