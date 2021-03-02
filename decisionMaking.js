@@ -30,3 +30,5 @@ colors
 (11) ["Yellow", "Blue", empty × 8, "Purple"]
 colors.length
 11
+
+// 
