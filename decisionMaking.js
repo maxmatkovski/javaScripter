@@ -55,3 +55,35 @@ movieLine.pop()
 "pablo"
 movieLine
 (2) ["tom", "nancy"]
+
+
+
+// Push vs Unshift vs Pop vs Shift
+
+const numbers = [1,2,3,4,5]
+undefined
+numbers.push (6)
+6
+numbers
+(6) [1, 2, 3, 4, 5, 6]
+                        // Push adds to the end
+
+numbers.unshift(0)
+7
+numbers
+(7) [0, 1, 2, 3, 4, 5, 6]
+
+                       // Unshift adds to the beginning
+numbers.pop()
+6
+numbers
+(6) [0, 1, 2, 3, 4, 5]
+
+                       // Pop Removes From The End
+
+numbers.shift ()
+0
+numbers
+(5) [1, 2, 3, 4, 5]
+                      // Shift removes from the beginning
+
