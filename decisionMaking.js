@@ -31,4 +31,17 @@ colors
 colors.length
 11
 
-// 
+// javaSript Push
+
+let movieLine = ['tom','nancy']
+undefined
+movieLine [2] = 'pablo'
+"pablo"
+movieLine
+(3) ["tom", "nancy", "pablo"]
+movieLine.push('oliver')
+4
+movieLine
+(4) ["tom", "nancy", "pablo", "oliver"]
+
+  // changes actual array 
