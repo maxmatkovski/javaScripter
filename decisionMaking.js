@@ -45,3 +45,13 @@ movieLine
 (4) ["tom", "nancy", "pablo", "oliver"]
 
   // changes actual array 
+
+
+// Pop 
+
+movieLine
+(3) ["tom", "nancy", "pablo"]
+movieLine.pop()
+"pablo"
+movieLine
+(2) ["tom", "nancy"]
