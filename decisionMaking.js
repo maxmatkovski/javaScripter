@@ -56,4 +56,17 @@ true
 
 
 
+let userInput = prompt("please enter a number")
+undefined
+userInput
+"97"
+userInput + 1
+"971"
+parseInt(userInput)+1
+98
+parseInt("10001")
+10001
+parseInt("10001adlkjdkl")
+10001
+
 
