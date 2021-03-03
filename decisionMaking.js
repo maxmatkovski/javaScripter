@@ -39,6 +39,21 @@ false
 1==='1'
 false
 
+// Non-equality opperators
+
+1 != 1
+false
+1 != 2
+true
+1 != '12'
+true
+1 == '1'
+true
+1 !== '1'
+true
+
+// Good Practice To Begin With Always Using === and !==
+
 
 
 
