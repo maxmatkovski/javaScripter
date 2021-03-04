@@ -15,3 +15,13 @@ let product = {name: "Gummy Bears", inStock: true, price: 1.99, flavors: ["grape
 // Accessing Info From Obj Lit
 person["lastName"]
 "Jagger"
+
+
+// 2 Ways of Access
+
+const personalInformation = {firstName: "Max", lastName: "Matkovski", age: 19, school: "UCLA"}
+undefined
+personalInformation["firstName"]
+"Max"
+personalInformation.firstName
+"Max"
