@@ -7,3 +7,7 @@ person
 
 firstName: "Mick"
 lastName: "Jagger"
+
+// Practice Problem From Object Literals
+
+let product = {name: "Gummy Bears", inStock: true, price: 1.99, flavors: ["grape", "apple", "cherry"]}
