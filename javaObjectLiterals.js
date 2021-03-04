@@ -25,3 +25,24 @@ personalInformation["firstName"]
 "Max"
 personalInformation.firstName
 "Max"
+
+// Editing 
+
+const midterms = {danielle: 96, thomas: 78}
+undefined
+midterms
+{danielle: 96, thomas: 78}
+midterms["thomas"] = 79
+79
+midterms
+{danielle: 96, thomas: 79}
+midterms.thomas = "C+"
+"C+"
+midterms ["danielle"]= "A"
+"A"
+midterms    
+{danielle: "A", thomas: "C+"}
+midterms.ezra = "B+"
+"B+"
+midterms ["Antonio"] = "A-"
+"A-"
