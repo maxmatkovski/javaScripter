@@ -46,3 +46,17 @@ midterms.ezra = "B+"
 "B+"
 midterms ["Antonio"] = "A-"
 "A-"
+
+
+const comments = [
+    {username: 'Tammy', text: 'lolololol', votes: 9},
+    {username: 'FishBoi', text: 'glub glub', votes: 12349}
+    ]
+undefined
+
+// How do I access 'glub glub'??
+undefined
+comments[1]
+{username: "FishBoi", text: "glub glub", votes: 12349}
+comments[1]["text"]
+"glub glub"
