@@ -31,3 +31,9 @@ for(let row of seatingChart){
         console.log(student);
     }
 }
+
+// Using for of to iterate through characters
+
+for(let char of "hello world"){
+    console.log(char)
+}
