@@ -16,3 +16,9 @@ function rant (message){
         console.log(`I HATE ${message.toUpperCase()}`)
     }
 }
+
+// Functions with Multiple Arguments
+
+function greet(firstName, lastName){
+    console.log(`Hey there ${firstName} ${lastName}`)
+}
