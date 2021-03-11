@@ -48,4 +48,14 @@ function multiply (number1, number2){
     return number1 * number2;
 }
 
+// isShortsWeather
+function isShortsWeather(temperature){
+    if(temperature >= 75){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+
 
