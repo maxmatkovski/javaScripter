@@ -31,3 +31,14 @@ function isSnakeEyes(number1, number2){
         console.log('Not Snake Eyes!')
     }
 }
+
+
+// Sum
+
+function add (x, y){
+    if(typeof x !== 'number' || typeof y !== 'number'){
+        return false;
+    } else {
+    return x + y;
+    }
+}
