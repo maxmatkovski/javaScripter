@@ -57,5 +57,14 @@ function isShortsWeather(temperature){
     }
 }
 
+// CE 40
+argument = [''];
 
+function lastElement(argument){
+    if (argument == ['']){
+        return false;
+    } else {
+        return argument[argument.length - 1]
+    }
+}
 
