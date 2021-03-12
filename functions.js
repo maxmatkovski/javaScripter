@@ -86,5 +86,16 @@ function sumArray (array){
         return(sum);
 }
 
+// CE 43 
+function returnDay(number){
+    if(1 > number || number > 7){
+        return null;
+    } else {
+        let daysOfWeek = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+        return (daysOfWeek[number-1]);
+    }
+}
+
+
 
 
