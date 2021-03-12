@@ -75,4 +75,16 @@ function capitalize(string){
     return(`${string.slice(0,1).toUpperCase()}${string.slice(1,string.length)}`);
 }
 
+// CE 42
+let array;
+let sum = 0;
+
+function sumArray (array){
+        for(let i = 0; i < array.length; i++){
+            sum  = sum + array[i];
+        }
+        return(sum);
+}
+
+
 
