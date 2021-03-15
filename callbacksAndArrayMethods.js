@@ -52,3 +52,8 @@ const rollDie = () =>{
 const greet = (n) => {
     return (`Hey ${n}!`);
 }       // Problem wasn't even hard. Instruction were just unclear.
+
+// Implicit Return (New shortened syntax for arrow functions)
+const rollDie = () => (
+   Math.floor(Math.random() * 6) + 1
+)
