@@ -115,3 +115,13 @@ const myMath = {
         return num ** 3;
     }
 }
+
+// CE 45 - Methods Practice 
+const square = {
+    area(side){
+        return side * side;
+    },
+    perimeter(side){
+        return side *4;
+    }
+}
