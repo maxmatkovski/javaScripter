@@ -63,3 +63,14 @@ function makeMysteryFunc(){
 
 const mysteryVariable = makeMysteryFunc();
 mysteryVariable();
+
+// 
+function isBetween(num){
+    return num >= 50 && num <= 100;
+} // Default return value is Boolean
+
+function isBetween1And10(num){
+    return num >= 1 && num <= 10;
+} 
+
+//
