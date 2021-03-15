@@ -24,3 +24,8 @@ const add = function (x,y) {
     return x + y;
 }
        // Storing function with no name into constant variable 
+
+// Quick Practice
+let square = function (x){
+    return (x * x);
+}
