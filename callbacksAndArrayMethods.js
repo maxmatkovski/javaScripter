@@ -64,3 +64,17 @@ setTimeout (() => {
 }, 3000)
 
         // (Function, # of Milliseconds)
+
+// Set Interval
+setInterval ( () => {
+    console.log(Math.random())
+}, 2000);
+
+// How to stop interval
+const id = setInterval ( () => {
+    console.log(Math.random())
+}, 2000);
+
+clearInterval(id)
+
+//
