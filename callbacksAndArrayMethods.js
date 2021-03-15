@@ -11,3 +11,10 @@ numbers.forEach(print)
 numbers.forEach(function(el)){
     console.log(el)
 }
+
+// forEach with If Statement
+numbers.forEach(function(el){
+    if (el % 2 === 0){
+        console.log(el)
+    }
+})
