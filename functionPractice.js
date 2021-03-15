@@ -193,3 +193,16 @@ const hen = {
         return 'EGG'
     }
 }
+
+
+// Try and Catch
+
+try {
+    hello.toUpperCase();
+} catch {
+    console.log('ERROR!!!')
+}
+
+console.log('AFTER!')
+
+// Without try catch code stops and lines below won't run
