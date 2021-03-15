@@ -181,4 +181,15 @@ const meow2 = cat.meow;
 This is: {name: "Blue Steele", color: "grey", breed: "scottish fold", meow: ƒ}
 
 
+// CE Exercise 46
 
+                // Simply use this.eggCount to access object (must use it)
+
+const hen = {
+    name: 'Helen',
+    eggCount: 0,
+    layAnEgg (){
+        this.eggCount = this.eggCount + 1;
+        return 'EGG'
+    }
+}
