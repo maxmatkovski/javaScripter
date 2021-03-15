@@ -85,4 +85,24 @@ const isChild = makeBetweenFunc(0,18);
 isChild(19)
 false
 
+// Function Methods
+const myMath = {
+    PI: 3.1459,
+    square: function (num){
+        return num * num;
+    },
+    cube: function (num){
+        return num ** 3;
+    }
+}
+
+myMath.PI
+3.1459
+myMath.square(3)
+9
+myMath.cube(3)
+27
+myMath.cube(4)
+64
+
 //
