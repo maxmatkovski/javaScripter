@@ -73,4 +73,16 @@ function isBetween1And10(num){
     return num >= 1 && num <= 10;
 } 
 
+// FUNCTION GENERATOR!!!!!
+function makeBetweenFunc(min, max){
+    return function(num){
+        return num >= min && num <= max
+    }
+}
+
+const isChild = makeBetweenFunc(0,18);
+
+isChild(19)
+false
+
 //
