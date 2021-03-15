@@ -26,3 +26,8 @@ const numbers = [1,2,3,4,5,6,7,8,9]
 numbers.map(function(num){
     return num * 2;
 })
+
+// CE 47 
+function cleanNames(name){
+    return name.map(i => i.trim());
+}
