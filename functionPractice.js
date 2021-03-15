@@ -19,3 +19,8 @@ function bankRobbery (){
 }
         // Notice how when using nested functions, it's important to call the function outside of itself
 
+// Function expression
+const add = function (x,y) {
+    return x + y;
+}
+       // Storing function with no name into constant variable 
