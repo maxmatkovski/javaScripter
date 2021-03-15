@@ -105,4 +105,13 @@ myMath.cube(3)
 myMath.cube(4)
 64
 
-//
+// Function Method Shortcuts
+const myMath = {
+    PI: 3.1459,
+    square(num){
+        return num * num;
+    },
+    cube(num){
+        return num ** 3;
+    }
+}
