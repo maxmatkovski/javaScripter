@@ -42,3 +42,8 @@ const add = (x,y) => {
 const square = (x) => {
     return x ** 2;
 }
+
+// rollDie Arrow Function
+const rollDie = () =>{
+    return Math.floor(Math.random() * 6) + 1;
+}
