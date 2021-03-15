@@ -31,3 +31,9 @@ numbers.map(function(num){
 function cleanNames(name){
     return name.map(i => i.trim());
 }
+
+// Arrow Functions
+const add = (x,y) => {
+    return x + y;
+}
+            // Only difference is not using function keyword
