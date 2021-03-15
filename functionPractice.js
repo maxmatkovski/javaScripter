@@ -125,3 +125,34 @@ const square = {
         return side *4;
     }
 }
+
+// Keyword 'this'
+const cat = {
+    name: 'Blue Steele',
+    color: 'grey',
+    breed: 'scottish fold',
+    meow(){
+        console.log('Meow, Meow, Meow')
+    }
+}
+
+cat.meow()
+app.js:7 Meow, Meow, Meow
+
+
+// Keyword 'this'
+const cat = {
+    name: 'Blue Steele',
+    color: 'grey',
+    breed: 'scottish fold',
+    meow(){
+        console.log(color)
+    }
+}
+
+cat.meow()
+app.js:7 Uncaught ReferenceError: color is not defined
+    at Object.meow (app.js:7)
+    at <anonymous>:1:5          // Can't just call property within function like that
+
+
