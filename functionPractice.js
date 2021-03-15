@@ -155,4 +155,13 @@ app.js:7 Uncaught ReferenceError: color is not defined
     at Object.meow (app.js:7)
     at <anonymous>:1:5          // Can't just call property within function like that
 
+// word this allows for access to object
+const cat = {
+    name: 'Blue Steele',
+    color: 'grey',
+    breed: 'scottish fold',
+    meow(){
+        console.log(this.color)
+    }
+}
 
