@@ -37,3 +37,8 @@ const add = (x,y) => {
     return x + y;
 }
             // Only difference is not using function keyword
+
+// Square Arrow Function
+const square = (x) => {
+    return x ** 2;
+}
