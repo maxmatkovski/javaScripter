@@ -57,3 +57,10 @@ const greet = (n) => {
 const rollDie = () => (
    Math.floor(Math.random() * 6) + 1
 )
+
+// setTimeout
+setTimeout (() => {
+    console.log('HELLO!!!!')
+}, 3000)
+
+        // (Function, # of Milliseconds)
