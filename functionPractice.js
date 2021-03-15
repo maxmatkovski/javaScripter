@@ -44,3 +44,22 @@ function rollDie (){
 }
 
 callFunctionTimes(rollDie, 10);
+
+// Returning Functions Continued
+function makeMysteryFunc(){
+    const rand = Math.random();
+    if(rand > .5){
+        return function (){
+            console.log("CONGRATS I AM A GOOD FUNCTION");
+            console.log("YOU WIN A MILLION DOLLARS");
+        }
+    } else {
+        return function (){
+            console.log("YOU HAVE BEEN INFECTED BY COVID");
+            alert("STOP TRYING TO CLOSE THIS WINDOW")
+        }
+    }
+}
+
+const mysteryVariable = makeMysteryFunc();
+mysteryVariable();
