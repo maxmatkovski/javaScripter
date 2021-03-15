@@ -47,3 +47,8 @@ const square = (x) => {
 const rollDie = () =>{
     return Math.floor(Math.random() * 6) + 1;
 }
+
+// CE 48
+const greet = (n) => {
+    return (`Hey ${n}!`);
+}       // Problem wasn't even hard. Instruction were just unclear.
