@@ -29,3 +29,18 @@ const add = function (x,y) {
 let square = function (x){
     return (x * x);
 }
+
+// Passing Functions As Arguments
+
+function callFunctionTimes(func, number){
+    for (let i = 0; i < number; i++){
+        func();
+    }
+}
+
+function rollDie (){
+    const roll = Math.floor(Math.random() * 10) + 1;
+    console.log(roll);
+}
+
+callFunctionTimes(rollDie, 10);
