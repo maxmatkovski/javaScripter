@@ -77,4 +77,12 @@ const id = setInterval ( () => {
 
 clearInterval(id)
 
-//
+// Filter Method
+
+const numbers = [9,8,7,6,5,4,3,2,1];
+
+numbers.filter(n => {
+    return n < 10
+})
+
+// Returns all numbers < 10 in new array
