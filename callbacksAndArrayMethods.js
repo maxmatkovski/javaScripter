@@ -101,3 +101,15 @@ exams.every(score => score >= 75)
 
 // Returns False if I change a number which doesn't meet the parameter.
 
+    // Some is similar to Every but only checks for 'some'
+
+    const exams = [80, 98, 92, 70, 76, 90, 89, 84, 81, 77]
+
+    exams.some(score => score >= 75)
+
+    true
+
+    exams.every(score => score >= 75)
+    ​
+    false
+
