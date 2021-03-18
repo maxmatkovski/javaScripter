@@ -86,3 +86,18 @@ numbers.filter(n => {
 })
 
 // Returns all numbers < 10 in new array
+
+// Some and Every JavaScript Functions
+
+const exams = [80, 98, 92, 78, 76, 90, 89, 84, 81, 77]
+
+exams.every(score => score >= 75)
+
+// Returns true because all values are greater/equal to 75. 
+
+const exams = [80, 98, 92, 70, 76, 90, 89, 84, 81, 77]
+
+exams.every(score => score >= 75)
+
+// Returns False if I change a number which doesn't meet the parameter.
+
