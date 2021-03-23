@@ -34,3 +34,14 @@ NaN
 
 Math.max(...nums)
 4363            // Need to '...' to 'spread' array into function
+
+
+// Spread with Array Literals
+
+ const cats = ['blue', 'scout', 'rocket'];
+ const dogs = ['Rusty', 'wyatt']
+
+ const allPets = [...cats, ...dogs]
+ 
+ allPets
+(5) ["blue", "scout", "rocket", "Rusty", "wyatt"]
