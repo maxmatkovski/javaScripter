@@ -25,3 +25,12 @@ function greet(msg = 'Hey there', person){
 function greet(person, msg = 'Hey there'){
     console.log(`${msg}, ${person}!`)
 }
+
+// Spread In Function Calls
+const nums = [12,334,322,33,4,66,4363]
+
+Math.max(nums)
+NaN
+
+Math.max(...nums)
+4363            // Need to '...' to 'spread' array into function
