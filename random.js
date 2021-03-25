@@ -14,3 +14,16 @@ if(age >= 18){
     // Teranary Operator
 let age = 15;
 console.log((age >= 18)? "You are an adult!" : "You are a kid.");
+
+
+// What will happen when the following is run?
+
+function doSomething () {
+    console.log('hello');
+}
+
+let example = true;
+example && doSomething();
+
+    // console.log('hello'); will run
+    // true allows && to run, while false will not
