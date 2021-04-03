@@ -127,3 +127,16 @@ colors
 colorsCopy
 (4) ["orange", "green", "blue", "red"]
 // Slice with nothing passed in makes a copy of the Array
+
+
+// Flatten Array of Arrays
+
+let flattenedArray = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+  [7, 8],
+  [9, 10],
+].reduce((accumulator, currentValue) => accumulator.concat(currentValue), []);
+
+console.log(flattenedArray);
